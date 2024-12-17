@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const conectString = 'mongodb+srv://abaffyacostac:yAjh2GwjRXwgIDYK@cluster0.d0mojbq.mongodb.net/UserDB?retryWrites=true&w=majority&appName=Cluster0'
+const conectString = 'mongodb+srv://salonijuneja93:Abc1234@saloni09.6xpr2.mongodb.net/?retryWrites=true&w=majority&appName=Saloni09'
 
 // MongoDB connection
 mongoose.connect(conectString, { })
